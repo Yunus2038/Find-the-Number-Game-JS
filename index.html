@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Find the Number Game</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1 class="title">Guess The Number (1 - 100)</h1>
+
+    <div class="container">
+      <div class="container-input">
+        <input
+          type="number"
+          name="enterednumber"
+          id="guess"
+          placeholder="Enter Your Guess Number..."
+          
+        />
+      </div>
+      <div>
+        <button class="check-button">CHECK</button>
+      </div>
+    </div>
+
+    <div class="image">
+      <img id="img1" src="./images/hatt.jpeg" alt="magic_hat" />
+      <img
+        id="img2"
+        src="./images/cong.webp"
+        alt="congratulations"
+        style="display: none"
+      />
+      <img
+        id="img3"
+        src="./images/go1.jpg"
+        alt="gameover"
+        style="display: none"
+      />
+    </div>
+
+    <div class="text">
+      <h2 class="result"></h2>
+      <p class="count">Number of attempts Left: 6</p>
+    </div>
+
+    <script src="apps.js"></script>
+  </body>
+</html>
+
