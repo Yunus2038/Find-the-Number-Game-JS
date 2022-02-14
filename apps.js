@@ -59,7 +59,7 @@ checkButton.addEventListener("click", () => {
                 result.innerText = "Play Again?";
                 result.style.color = "yellow";
                 result.style.fontSize = "2rem";
-                body.style.background = "black";
+               
             }
 
     } 
@@ -82,9 +82,9 @@ checkButton.addEventListener("click", () => {
                 img1.style.display = "none";
                 img2.style.display = "inline-block";
                 result.innerText = "Play Again?";
-                result.style.color = "yellow";
+                result.style.color = "red";
                 result.style.fontSize = "2rem";
-                body.style.background = "black";
+                
             }
 
     } 
