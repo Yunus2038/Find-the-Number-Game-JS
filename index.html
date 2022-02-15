@@ -16,7 +16,8 @@
           type="number"
           name="enterednumber"
           id="guess"
-          placeholder="Enter Your Guess Number..."
+          placeholder="Enter Your Guess Number...";
+          autocomplete="off" autofocus
           
         />
       </div>
@@ -27,23 +28,12 @@
 
     <div class="image">
       <img id="img1" src="./images/hatt.jpeg" alt="magic_hat" />
-      <img
-        id="img2"
-        src="./images/cong.webp"
-        alt="congratulations"
-        style="display: none"
-      />
-      <img
-        id="img3"
-        src="./images/go1.jpg"
-        alt="gameover"
-        style="display: none"
-      />
     </div>
 
     <div class="text">
       <h2 class="result"></h2>
       <p class="count">Number of attempts Left: 6</p>
+      <button class="restart">RESTART</button>
     </div>
 
     <script src="apps.js"></script>

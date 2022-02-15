@@ -15,7 +15,7 @@ body {
 
 .title {
   text-align: center;
-  margin: 4rem 0rem;
+  margin: 3rem 0rem;
   font-weight: 700;
 }
 
@@ -76,4 +76,14 @@ img {
   font-size: 2rem;
   cursor: pointer;
   
+}
+.restart{
+  cursor: pointer;
+  width: 5rem;
+  height: 3rem;
+  border-radius: 0.4rem;
+  border: none;
+  margin-left: 1rem;
+  display: none;
+  font-weight: bolder;
 }
